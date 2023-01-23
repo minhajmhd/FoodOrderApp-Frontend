@@ -1,0 +1,29 @@
+<header>
+  <div class="container">
+    <a routerLink="/" class="logo"> <i class="fa-sharp fa-solid fa-utensils"></i> &nbsp;  Food Mine! </a>
+    <nav>
+      <ul>
+        <li><input (keyup)="search($event)" type="text" placeholder="Search your products" class="form-control mt-2"></li>
+        <li>
+          <a routerLink="products/login">Login</a>
+        </li>
+        <!-- <li>
+          <a routerLink="products/wish-list">Wish List</a>
+        </li> -->
+        <li class="menu-container">
+          <a routerLink="">Minhaj</a>
+          <div class="menu">
+            <a routerLink="">Profile</a>
+            <a routerLink="">Orders</a>
+            <a >Logout</a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="products/cart">Cart
+            <span>{{cartItemCount}}</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

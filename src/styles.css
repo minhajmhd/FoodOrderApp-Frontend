@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=DynaPuff:wght@500&family=Montserrat:wght@100&family=Poppins:ital,wght@0,300;0,500;1,200&family=Quicksand&family=Raleway:ital@1&family=Square+Peg&display=swap');
+body{
+  /* font-family: 'Quicksand', sans-serif; */
+}
